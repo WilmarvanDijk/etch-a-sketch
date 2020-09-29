@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Important when making the website responsive/mobile friendly-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>  -->
+    <title>Etch-a-Sketch</title>
+    <link rel="icon" type="image/x-icon" href="img/eas-favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container jsHeaderContainer">
+        <h2 class="header-style">MAGIC</h2>
+        <h1 class="header-style">EtchASketch</h1>
+        <h2 class="header-style">SCREEN</h2>
+    </header>
+    <main class="main-container jsMainContainer"></main>
+    <footer class="footer-container jsFooterContainer"> 
+        <button class="button button__reset jsButtonReset">
+            <h2 class="header-style">Reset</h2>
+        </button>
+        <div class="input-container">
+            <div class="grid-slider-container">
+                <h2 class="header-style">2</h2>
+                <input type="range" min="2" max="64" class="grid-slider jsGridSlider">
+                <h2 class="header-style">64</h2>
+            </div>
+            <div class="grid-size-container">
+                <h2 class="header-style">Grid size</h2>
+                <h2 class="header-style grid-size jsGridSize">8</h2>
+            </div>
+        </div>
+        <button class="button button__rainbow jsButtonRainbow">
+            <h2 class="header-style">Rainbow</h2>
+        </button>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
